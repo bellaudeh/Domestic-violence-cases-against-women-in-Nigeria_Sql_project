@@ -168,4 +168,12 @@ SELECT Victim_Demographics.ID, COUNT(*) AS recurrence
  ```
 ## Recommendations
 Based on the analysis of this dataset collected from womwn in Nigeria, severral key recommendation can be made<br/>
-**1. Support services for victims**
+**1. Adequate Support services for victims**
+Special attention should be given to providing accessible counseling and legal support services to women exposed to violent attacks by their partners or family. ensuring that these affected women get all the support and assitance needed for them to move forward with their lives.
+**2. Raise Awareness**
+Awareness programs should be designed for women in different regions of Nigeria to ensure a high level of awareness. These programs should empower women to speak up to the appropriate authorities about potential abuse in their relationships, which can help protect their lives.
+**3. Education and Empowerment**
+Programs that focus on women’s empowerment through education and economic independence could reduce vulnerability to domestic violence. The analysis shows a potential link between education levels and the likelihood of being affected by violence. Encourage vocational training and educational opportunities for women to foster independence and reduce the cycle of violence.
+**4. Collaboration with local organization**
+Collaboration with local NGOs and community organizations can ensure that resources are effectively distributed and tailored to the specific needs of victims.
+Encourage partnerships between government bodies and civil society to provide comprehensive support networks for affected women.
