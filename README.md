@@ -17,7 +17,7 @@ The primary objective of this project is to perform an SQL analysis to: <br/>
 4. Raise awareness about domestic violence issues in Nigeria.
 
 ## Schema
-Domestic violence Table
+Domestic Violence Table
 ```sql
 CREATE TABLE DOMESTIC_VIOLENCE
 (
@@ -34,4 +34,28 @@ CREATE TABLE DOMESTIC_VIOLENCE
   `outcome` varchar (300),
   `support_service` varchar (300)
 );
+insert into domestic_violence 
+(`id`,`date`,`location`,`age`,`marital_status`,`perpetrator_relationship`,`violence`,`severity`,`reported`,`legal_action`,`outcome`,`support_service`) values
+('1','2018-10-09','abuja',32,'married','husband','physical','severe','1','none','none','family'),
+(2,'2022-06-11','lagos',24,'single','boyfriend','psychological','minor',0,'none','none','none'),
+(3,'2024-01-22','delta',20,'single','boyfriend','physical','minor',0,'none','none','friends'),
+(4,'2021-06-15','enugu',30,'widow','family','psychological','severe',1,'court-case','none','religious-counseling'),
+(5,'2023-07-30','abuja',45,'single','family','psycological','minor', 0, 'none','none','none'),
+(6,'2024-09-16','nasarawa',25,'married','husband','physical','severe',0,'none','none','religious-counseling'),
+(7,'2019-10-30','kogi',25,'single','boyfriend','physical','severe',1,'none','none','friend'),
+(8,'2019-10-15','abuja',30,'married','husband','physical','severe',1,'court-case','divorce','counseling'),
+(9,'2018-10-15','jos',50,'single','family','psycological','severe',0,'none','none','religious-counseling'),
+(10,'2020-11-05','abuja',31,'married','husband','physical','minor',0,'none','none','family'),
+(11,'2018-02-19','enugu',40,'single','family','psychological','severe',0,'none','none','none'),
+(12,'2020-12-14','benue',31,'married','stranger','physical','severe',1,'arrested','convicted','counseling'),
+(13,'2021-07-17','abuja',19,'married','family','physical','severe',0,'none','none','none'),
+(14,'2022-05-18','kaduna',18,'married','husband','sexual','severe',1,'court-case','in-process','family'),
+(15,'2021-02-16','abuja', 30,'married','husband','psychological','severe',1,'none','none','none'),
+(16,'2023-07-23','nasarawa',22,'single','stranger','sexual','severe',1,'arrested','convicted','family'),
+(17,'2022-04-25','abuja',19,'single','family','sexual','severe',1,'arrested','none','religious-counseling'),
+(18,'2020-09-30','delta',50,'single','family','psychological','minor',0,'none','none','none'), 
+(19,'2019-04-23','abuja',30,'married','husband','physical','severe',1,'court-case','divorce','religiou-counseling'),
+(20,'2020-05-22','lagos',24,'single','boyfriend','psychological','minor',0,'none','none','friends');
 ```
+Victim Demographic Table
+```sql
