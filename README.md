@@ -112,11 +112,11 @@ select violence,
 		group by violence;
 ```
 **4.what is the marital status distribution of victims?**
-	```sql
+```sql
  select victim_demographics.marital_status, count(*) as Relationship_status
 		from victim_demographics join domestic_violence on
 			victim_demographics.id=domestic_violence.id group by victim_demographics.marital_status;
-     ```
+ ```
  **5. what is the relationship between the perpetrator and the victim in domestic violence cases?**
 ```sql
 select domestic_violence.perpetrator_relationship, count(*) as relationship
