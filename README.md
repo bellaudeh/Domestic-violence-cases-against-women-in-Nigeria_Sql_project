@@ -92,7 +92,7 @@ values(1,'dayo','30-35','married','university','employed','low','abuja'),
 (19,'tania','30-35','married','university','entreprenuer','very high','abuja'),
 (20,'shade','25-30','single','university','employed','high','lagos');
 ```
-##Problems and solution based on the dataset
+## Problems and solution based on the dataset
 **1. what are the most common types of violence?**
 ```sql
 select violence,
