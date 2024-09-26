@@ -8,7 +8,7 @@ Furthermore, women in Nigeria are often judged harshly for being successful yet 
 Although some women access counseling services, these services often focus on repairing the marriage rather than helping women escape abusive situations. The counseling sessions subtly imply that the responsibility to "fix" the relationship lies with the victim, exacerbating psychological trauma. This approach fails to address the core issue of domestic violence, which is rooted in power and control, not simply relationship conflicts.
 
 ## Overview
-This project focuses on the analysis of domestic violence against womwnt in Nigeria using primary data collected by the data analyst from womenn affected by domestic violence. The dataset covers information on victim demographics, reported cases and support gotten by the victim. The goal behind this analysis is to better understand the scope of domestic violence in Nigeria and its impact on the lives of women from different background.
+This project focuses on the analysis of domestic violence against women in Nigeria using primary data collected by the data analyst from women affected by domestic violence. The dataset covers information on victim demographics, reported cases and support gotten by the victim. The goal behind this analysis is to better understand the scope of domestic violence in Nigeria and its impact on the lives of women from different background.
 
 ## Data Sources:
 **Domestic violence incident table:** Contains information about reported incident, loaction, age, support-service, type of violence and relationship with perpetrator.
@@ -169,7 +169,7 @@ SELECT Victim_Demographics.ID, COUNT(*) AS recurrence
 ## Recommendations
 Based on the analysis of this dataset collected from womwn in Nigeria, severral key recommendation can be made<br/>
 **1. Adequate Support services for victims**
-Special attention should be given to providing accessible counseling and legal support services to women exposed to violent attacks by their partners or family. ensuring that these affected women get all the support and assitance needed for them to move forward with their lives.
+Special attention should be given to providing accessible counseling and legal support services to women exposed to violent attacks by their partners or family. Ensuring that these affected women receive all the necessary support and assistance to help them move forward with their lives.
 **2. Raise Awareness**
 Awareness programs should be designed for women in different regions of Nigeria to ensure a high level of awareness. These programs should empower women to speak up to the appropriate authorities about potential abuse in their relationships, which can help protect their lives.
 **3. Education and Empowerment**
@@ -177,3 +177,5 @@ Programs that focus on women’s empowerment through education and economic inde
 **4. Collaboration with local organization**
 Collaboration with local NGOs and community organizations can ensure that resources are effectively distributed and tailored to the specific needs of victims.
 Encourage partnerships between government bodies and civil society to provide comprehensive support networks for affected women.
+## Author-Honeybell Udeh
+The project is part of my portfolio, showing the SQL skills essential for a data analyst role. If you have  any question or feedback, feel free to contact me! 😄
