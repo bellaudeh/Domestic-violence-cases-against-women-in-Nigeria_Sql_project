@@ -5,9 +5,9 @@
 This project focuses on the analysis of domestic violence against womwnt in Nigeria using primary data collected by the data analyst from womenn affected by domestic violence. The dataset covers information on victim demographics, reported cases and support gotten by the victim. The goal behind this analysis is to better understand the scope of domestic violence in Nigeria and its impact on the lives of women from different background.
 
 ## Data Sources:
-Domestic violence incident table: Contains information about reported incident, loaction, age, support-service, type of violence and relationship with perpetrator.
+**Domestic violence incident table:** Contains information about reported incident, loaction, age, support-service, type of violence and relationship with perpetrator.
 
-Victim demographic table: Captures data on the personal demographics of the women involved, such as age group, marital status, education level, and occupation.
+**Victim demographic table:** Captures data on the personal demographics of the women involved, such as age group, marital status, education level, and occupation.
 
 ## Objectives
 The primary objective of this project is to perform an SQL analysis to: <br/>
@@ -17,7 +17,7 @@ The primary objective of this project is to perform an SQL analysis to: <br/>
 4. Raise awareness about domestic violence issues in Nigeria.
 
 ## Schema
-Domestic Violence Table
+**Domestic Violence Table**
 ```sql
 CREATE TABLE DOMESTIC_VIOLENCE
 (
@@ -57,7 +57,7 @@ insert into domestic_violence
 (19,'2019-04-23','abuja',30,'married','husband','physical','severe',1,'court-case','divorce','religiou-counseling'),
 (20,'2020-05-22','lagos',24,'single','boyfriend','psychological','minor',0,'none','none','friends');
 ```
-Victim Demographic Table
+**Victim Demographic Table**
 ```sql
 create table victim_demographics( 
   `ID` int primary key,
