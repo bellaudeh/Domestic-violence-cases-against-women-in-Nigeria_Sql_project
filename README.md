@@ -116,21 +116,21 @@ select violence,
  select victim_demographics.marital_status, count(*) as Relationship_status
 		from victim_demographics join domestic_violence on
 			victim_demographics.id=domestic_violence.id group by victim_demographics.marital_status;
-   ```
+     ```
  **5. what is the relationship between the perpetrator and the victim in domestic violence cases?**
-	```sql
+```sql
 select domestic_violence.perpetrator_relationship, count(*) as relationship
 		from domestic_violence group by domestic_violence.perpetrator_relationship
 			order by relationship desc;
 ```
  **6. what percentage of incident are reported to the authorities?**
-	```sql
+ ```sql
  SELECT 
     SUM(CASE WHEN Reported = 1 THEN 1 ELSE 0 END) * 100.0 / COUNT(*) AS ReportedPercentage
 FROM Domestic_Violence;
-```
+ ```
 **7. what is the severity of violence based on the victim's marital status?**
-	```sql
+```sql
 select victim_demographics.marital_status,domestic_violence.severity, count(*) as incident
 		from domestic_violence join victim_demographics on domestic_violence.id=victim_demographics.id
 			group by victim_demographics.marital_status, domestic_violence.severity order by incident desc;
@@ -147,17 +147,16 @@ ORDER BY LegalActionPercentage DESC;
 ```
 	
 **9. what types of support services are accessed by victims?**
-		```sql
+```sql
   SELECT Domestic_violence.Support_Service, COUNT(*) AS NumberOfCases
 	FROM Domestic_Violence 
 		GROUP BY Domestic_Violence.Support_Service
 			ORDER BY NumberOfCases DESC;
-   ```
-
+ ```
 **10. what is the rate of recurrence for domestic violence among victims?**
-		```sql
+ ```sql
 SELECT Victim_Demographics.ID, COUNT(*) AS recurrence
 	FROM Domestic_Violence 
 		JOIN Victim_Demographics  ON Domestic_Violence.id = Victim_Demographics.ID
 			GROUP BY Victim_Demographics.id
-```
+ ```
