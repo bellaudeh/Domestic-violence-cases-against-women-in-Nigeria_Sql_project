@@ -59,3 +59,37 @@ insert into domestic_violence
 ```
 Victim Demographic Table
 ```sql
+create table victim_demographics( 
+  `ID` int primary key,
+  `victim_name` text (500),
+  `age_group` text (500),
+  `marital_status` text (500),
+  `educational_level` text (500),
+  `employment_status` text (500),
+  `income_level` text (500),
+  `location` text (500)
+);
+insert into victim_demographics (`ID`,`victim_name`,`age_group`,`marital_status`,`educational_level`,`employment_status`,
+									`income_level`,`location`)
+values(1,'dayo','30-35','married','university','employed','low','abuja'),
+(2,'seun','20-25','single','university','employed', 'low','lagos'),
+(3,'mara','20-25','single','university','unemployed','very low','delta'),
+(4,'judith','30-35','widow','secondary','umemployed','very low','enugu'),
+(5,'jummai','40-45','single','university','employed','high','abuja'),
+(6,'aisha','20-25','married','secondary','petty_trader','low','nasarawa'),
+(7,'josephine','20-25','single','university','unemployed','very low','kogi'),
+(8,'cynthia','30-35','married','university', 'employed','high','abuja'),
+(9,'faith','50-55','single','university','employed','very high','jos'),
+(10,'mary','30-31','married','secondary','entreprenuer','high','abuja'),
+(11,'ijeoma','40-45','single','university','employed','very high','enugu'),
+(12,'dera','30-35','married','university','employed', 'high','benue'),
+(13,'amina','15-20','married','primary','unemployed','very low','abuja'),
+(14,'joyce','18-20','married','primary','unemployed','low','kaduna'),
+(15,'fummi','30-35','married','university', 'employed','high','abuja'),
+(16,'amina','20-25','single','university','unemployed','low','nasarawa'),
+(17,'jessica','15-20','single','secondary','unemployed','low','abuja'),
+(18,'bella','45-50','single','university','employed','very high','delta'),
+(19,'tania','30-35','married','university','entreprenuer','very high','abuja'),
+(20,'shade','25-30','single','university','employed','high','lagos');
+```
+
