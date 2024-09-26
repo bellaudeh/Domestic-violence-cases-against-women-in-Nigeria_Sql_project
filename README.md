@@ -9,7 +9,7 @@ Domestic violence incident table: Contains information about reported incident, 
 
 Victim demographic table: Captures data on the personal demographics of the women involved, such as age group, marital status, education level, and occupation.
 
-##Objectives
+## Objectives
 The primary objective of this project is to perform an SQL analysis to: 
 1.Understand the support system gotten by these women after a violent occurence.
 2.Understand the relationship between victim demographics (e.g., age, marital status, education) and the frequency or severity of domestic violence incidents.
