@@ -1,5 +1,6 @@
 # Domestic-violence-cases-against-women-in-Nigeria_Sql_project
 ![closedmouth](https://github.com/bellaudeh/Domestic-violence-cases-against-women-in-Nigeria_Sql_project/blob/main/closed%20mouth.png)
+## Background
 Many women in Nigeria face overwhelming challenges when seeking support in abusive relationships. Cultural, societal, and religious pressures often discourage them from leaving their abusive environments. Instead, they are frequently told to endure the situation, speak to religious leaders such as pastors, or seek counsel from family members. Unfortunately, family support is often based on traditional values that fail to recognize the severity of the abuse. As a result, women are encouraged to remain in toxic relationships, with divorce often seen as sinful or unacceptable, especially in religious or conservative communities. Those who do choose to leave face severe social stigma, with divorced women often being ridiculed.
 
 ## Overview
