@@ -11,7 +11,7 @@ This project focuses on the analysis of domestic violence against womwnt in Nige
 
 ## Objectives
 The primary objective of this project is to perform an SQL analysis to: <br/>
-1.Understand the support system gotten by these women after a violent occurence.
+1.Understand the support system gotten by these women after a violent occurence.<br/>
 2.Understand the relationship between victim demographics (e.g., age, marital status, education) and the frequency or severity of domestic violence incidents.<br/>
 3.Present insights that can support organizations and policymakers in designing targeted interventions and providing support to affected women.<br/>
 4. Raise awareness about domestic violence issues in Nigeria.
@@ -92,4 +92,10 @@ values(1,'dayo','30-35','married','university','employed','low','abuja'),
 (19,'tania','30-35','married','university','entreprenuer','very high','abuja'),
 (20,'shade','25-30','single','university','employed','high','lagos');
 ```
-
+##Problems and solution based on the dataset
+**1. what are the most common types of violence?**
+```sql
+select violence,
+	count(*) as violence_count from domestic_violence
+		group by violence;
+```
