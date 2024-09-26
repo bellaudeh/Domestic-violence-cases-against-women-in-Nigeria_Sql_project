@@ -15,3 +15,23 @@ The primary objective of this project is to perform an SQL analysis to: <br/>
 2.Understand the relationship between victim demographics (e.g., age, marital status, education) and the frequency or severity of domestic violence incidents.<br/>
 3.Present insights that can support organizations and policymakers in designing targeted interventions and providing support to affected women.<br/>
 4. Raise awareness about domestic violence issues in Nigeria.
+
+## Schema
+Domestic violence Table
+```sql
+CREATE TABLE DOMESTIC_VIOLENCE
+(
+  `ID` int,
+  `date`  date,
+  `location` varchar (100),
+  `age` int,
+  `marital_status` varchar(100),
+  `perpetrator_relationship` varchar(300),
+  `violence` varchar (300),
+  `severity` varchar (500),
+  `reported` bit,
+  `legal_action` varchar (300),
+  `outcome` varchar (300),
+  `support_service` varchar (300)
+);
+```
