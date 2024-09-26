@@ -1,5 +1,6 @@
 # Domestic-violence-cases-against-women-in-Nigeria_Sql_project
 ![closedmouth](https://github.com/bellaudeh/Domestic-violence-cases-against-women-in-Nigeria_Sql_project/blob/main/closed%20mouth.png)
+Many women in Nigeria face overwhelming challenges when seeking support in abusive relationships. Cultural, societal, and religious pressures often discourage them from leaving their abusive environments. Instead, they are frequently told to endure the situation, speak to religious leaders such as pastors, or seek counsel from family members. Unfortunately, family support is often based on traditional values that fail to recognize the severity of the abuse. As a result, women are encouraged to remain in toxic relationships, with divorce often seen as sinful or unacceptable, especially in religious or conservative communities. Those who do choose to leave face severe social stigma, with divorced women often being ridiculed.
 
 ## Overview
 This project focuses on the analysis of domestic violence against womwnt in Nigeria using primary data collected by the data analyst from womenn affected by domestic violence. The dataset covers information on victim demographics, reported cases and support gotten by the victim. The goal behind this analysis is to better understand the scope of domestic violence in Nigeria and its impact on the lives of women from different background.
@@ -160,3 +161,7 @@ SELECT Victim_Demographics.ID, COUNT(*) AS recurrence
 		JOIN Victim_Demographics  ON Domestic_Violence.id = Victim_Demographics.ID
 			GROUP BY Victim_Demographics.id
  ```
+## Recommendations
+Based on the analysis of this dataset collected from womwn in Nigeria, severral key recommendation can be made<br/>
+**1. Support services for victims**
+Many women in Nigeria face overwhelming challenges when seeking support in abusive relationships. Cultural, societal, and religious pressures often discourage them from leaving their abusive environments. Instead, they are frequently told to endure the situation, speak to religious leaders such as pastors, or seek counsel from family members. Unfortunately, family support is often based on traditional values that fail to recognize the severity of the abuse. As a result, women are encouraged to remain in toxic relationships, with divorce often seen as sinful or unacceptable, especially in religious or conservative communities. Those who do choose to leave face severe social stigma, with divorced women often being ridiculed.
